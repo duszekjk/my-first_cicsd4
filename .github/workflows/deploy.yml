@@ -31,6 +31,7 @@ jobs:
             # Pobierz najnowszy obraz
             docker pull ghcr.io/${{ github.repository_owner }}/my-first_cicd:latest
 
+
             # Uruchom kontener na porcie studenta
             docker run -d \
               --name my-app \
